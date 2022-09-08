@@ -1,0 +1,1 @@
+{"mappings":"AAAiBA,SAASC,cAAc,QAExCC,MAAMC,MAAMC","sources":["src/js/01-color-switcher.js"],"sourcesContent":["const bodyLinc = document.querySelector('body');\n\nbbody.style.bacground\n"],"names":["document","querySelector","bbody","style","bacground"],"version":3,"file":"01-color-switcher.80b99be6.js.map"}
