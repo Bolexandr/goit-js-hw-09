@@ -16,3 +16,21 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.discoStyleBtn{
+background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgpOVJMq2OWxoLycBfNBX5Ig94yg9crPAcXQ&usqp=CAU);
+border-radius:25% ;
+
+border-color: rgba(0, 255, 221, 0.993);
+height: 100px;
+width: 100px;
+margin: 20px;
+font-style: italic;
+font-weight: 999 ;
+ font-size: 28px;
+     position: relative;
+top: 43vh;
+left: 40%;
+}
+
+
