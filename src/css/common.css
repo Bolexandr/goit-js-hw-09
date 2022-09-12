@@ -17,10 +17,58 @@ img {
   max-width: 100%;
 }
 
+.timer{
+  margin-top: 10px;
+display: flex;
+
+gap: 9px;
+}
+
+
+.field{
+  min-width: 80px;
+  border: 2px solid turquoise;
+  border-radius: 5px ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2px;
+  font-weight: 700 ;
+   font-size: 20px;
+}
+
+.flatpickr-input {
+width: 257px;
+height: 52px;
+border-radius: 5px ;
+border: 2px solid turquoise;
+font-style: italic;
+font-weight: 700 ;
+ font-size: 20px;
+ padding-left: 44px;
+}
+.dataStartBtn{
+  margin-left: 9px;
+  width: 79px;
+height: 52px;
+  border: 2px solid turquoise;
+  cursor: pointer;
+  border-radius: 5px ;
+  font-style: italic;
+font-weight: 700 ;
+ font-size: 20px;
+ transition:  background-color 350ms ;
+ transition:  border-color 330ms;
+
+}
+.dataStartBtn:hover{
+  background-color: rgb(207, 226, 245);
+  border-color: rgba(107, 177, 224, 0.966);
+}
+
 .discoStyleBtn{
 background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgpOVJMq2OWxoLycBfNBX5Ig94yg9crPAcXQ&usqp=CAU);
 border-radius:25% ;
-
 border-color: rgba(0, 255, 221, 0.993);
 height: 100px;
 width: 100px;
@@ -33,4 +81,51 @@ top: 43vh;
 left: 40%;
 }
 
+label{
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 20px;
+  align-items: center;
+}
+.form{
+  gap: 20px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+height: 60px;
+font-weight: bolder;
+text-align: center;
+}
+.form>[ type="submit"]{
+  background-color: rgb(150, 203, 219);
+border-radius: 10px;
+border: 6px solid rgb(71, 204, 171);
+font-weight: bold;
+font-style: italic;
+font-size: 21px;
+transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.form>[ type="submit"]:hover{
+  cursor: pointer;
+  background-color: rgba(150, 197, 219, 0.568);
+  border: 6px solid rgb(71, 204, 193);
+}
+.form  [type="number"]{
+  border: 4px solid rgb(71, 204, 171);
+  background-color: rgb(150, 203, 219);
+  border-radius: 6px;
+  padding-left: 6px;
+  height: 30px;
+  font-size: 20px;
 
+}
+.form  [type="number"]:hover{
+  cursor: pointer;
+  background-color: rgba(150, 197, 219, 0.568);
+  border: 4px solid rgb(71, 204, 193);
+}
+.form  [type="number"]:focus-visible{
+  outline: 0 solid rgb(71, 204, 171); 
+  background-color: rgba(160, 214, 241, 0.788);
+}

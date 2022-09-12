@@ -4,7 +4,10 @@ import Notiflix from 'notiflix';
 
 const btn = document.querySelector('button');
 // btn.disabled=true
+const dataStart = document.querySelector('[data-start]');
 const inpt = document.querySelector('#datetime-picker');
+
+dataStart.classList.add('dataStartBtn')
 
 const options = {
   enableTime: true,
@@ -12,9 +15,9 @@ const options = {
   defaultDate: new Date(),
   minuteIncrement: 1,
   onClose(selectedDates) {
-    console.log(selectedDates[0]);
-    console.log(selectedDates[0].getTime());
-    console.log(new Date().getTime());
+    // console.log(selectedDates[0]);
+    // console.log(selectedDates[0].getTime());
+    // console.log(new Date().getTime());
     if (new Date().getTime() < selectedDates[0].getTime()) {
       btn.disabled = false;
       Notiflix.Notify.success('You choose a date in the future , great!!!');
