@@ -6,9 +6,9 @@ const btn = bodyLinc.querySelectorAll('button');
 // потрібний елемент і приймає колір у виді hex , 
 // або функції по зміні кольору)
 function changerBGColor(elemLinc, color) {
+  let setColor = null
   if (`${typeof color}` === 'function' ) {
     setColor = color()
-    console
   }else{
   setColor = color
   }
