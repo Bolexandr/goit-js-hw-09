@@ -1,6 +1,6 @@
 const bodyLinc = document.querySelector('body');
 const btn = bodyLinc.querySelectorAll('button');
-
+let timerId=null
 
 // функція по зміні backgroundColor  приймає посилання на 
 // потрібний елемент і приймає колір у виді hex , 
