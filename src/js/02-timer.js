@@ -32,7 +32,7 @@ flatpickr('#datetime-picker', options);
 let intervalId = null;
 
 function diffTime(finishDate) {
-  ms = new Date(finishDate).getTime() - new Date().getTime();
+ let ms = new Date(finishDate).getTime() - new Date().getTime();
 
   // Number of milliseconds per unit of time
   const second = 1000;
